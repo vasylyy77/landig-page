@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    transition: 1s;
+}
+.heder{
+    height: 50px;
+    background-color: rgb(14, 13, 13);
+}
+.cont{
+   width: 1100px;
+   margin: 0 auto;
+}
+.heder__wrap{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.heder__left{
+    padding: 15px 0;
+
+}
+.heder__right{
+    padding: 15px 0;
+}
+.heder__a-right{
+    margin-left: 10px;
+    color: aliceblue;
+}
+.heder__a-left{
+    
+    color: aliceblue;
+}
+.heder__a-left:hover{
+    
+    color: rgb(20, 65, 216);
+}
+.heder__a-right:hover{
+    
+    color: rgb(20, 65, 216);
+}
+
+       /* START ////////////////////////////////////////////////////////////*/
+
+.start{
+    position: relative;
+    height: 600px;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/images/background-promotion-6.d60b6fac.jpg);
+}  
+.start__box{
+    position: absolute;
+    height: 400px;
+    width: 800px;
+    background-color: rgb(19, 18, 18);
+    margin: 100px 200px;
+    text-align: center;
+    opacity: 0.8;
+    border-radius: 10px;
+}  
+.start__h1{
+    color:aliceblue;
+    margin-bottom: 30px;
+    margin-top: 30px;
+} 
+.start__h4{
+    color:aliceblue;
+    margin-bottom: 30px;
+} 
+.start__btn{
+    color:rgb(24, 25, 26);
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 30px;
+    background-color: rgb(200, 204, 207);
+    border-radius: 10px;
+    font-size: 18px;
+}
+.start__btn i{
+    margin: 0 10px;
+    font-size: 30px;
+}
+.start__mod{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 600px;
+    height: 300px;
+  background-color: #fff;
+
+    display: none;
+}
+.active{
+    display: block;
+}
+.start__v{
+    position: relative;
+}
+.start__mod-sp{
+  content: 'X';
+  display: block;
+  position: absolute;
+ 
+ padding: 15px;
+  border-radius: 50%;
+  background-color: rgb(248, 12, 12);
+  left: -40px;
+}
+
+  /* SECOND///////////////////////////////////////////////////////////////////////// */
+
+  .second{
+      height: 720px;
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/images/background-form.a5518719.jpg) ;
+      background-size: cover;
+  }
+  .second__box-left{
+      opacity: 0.8;
+      background-color: rgb(14, 13, 13);
+  }
+  .second__title{
+      text-align: center;
+      background-color: rgb(231, 217, 17);
+      width: 370px;
+      margin-bottom: 20px;
+
+  }
+  .second__text{
+      text-align: center;
+      background-color: rgb(231, 217, 17);
+      width: 700px;
+      font-size: 25px;
+      padding: 20px;
+
+  }
+  .second__box{
+      width: 900px;
+      height: 420px;
+      
+      margin-top: 30px;
+     display: flex;
+  }
+  .second__box-list{
+      
+     display: flex;
+    
+     padding: 20px;
+  }
+  .second__box-list-i{
+      
+     padding: 0 10px;
+    color:     rgb(231, 217, 17);
+    
+    font-size: 30px;
+  }
+  .second__box-list-p{
+      color: aliceblue;
+      font-size: 18px;
+      font-family:cursive;
+  }
+  .second__box-right{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      width: 350px;
+      height: 420px;
+      background-color: rgb(14, 13, 13);
+  }
+  .second__box-right  input{
+   margin-top: 40px;
+   padding-left: 10px;
+   height: 35px;
+   width: 300px;
+   border-radius: 10px;
+  }
+  .second__box-right p {
+     color:aliceblue;
+     margin: 15px;
+     text-align: center;
+  }
+  .second__p-smol{
+      font-size: 10px;
+  }
+  .second__btn-form{
+      padding: 10px 20px;
+      background-color: rgb(231, 217, 17);
+      border-radius: 10px;
+  }
+
+  /* SOLVE/////////////////////////////////////////////////// */
+
+
+  .solv{
+      height: 450px;
+      text-align: center;
+      color: rgb(40, 40, 143);
+      padding: 50px;
+  }
+  .solv__h1 {
+      font-size: 40px;
+  }
+  .solv__h1 span{
+      font-size: 35px;
+      font-weight: 300;
+  }
+  .solf__box1{
+      display: flex;
+      width: 900px;
+      margin: 30px auto;
+     
+  }
+  .solv__ins-boks{
+    padding: 30px;
+    border: 1px solid;
+    flex-basis: 33%;
+    font-size: 14px;
+    border-top: 7px solid rgb(214, 207, 207);
+  }
+  .solv__ins-boks:hover{
+    border-top: 7px solid rgb(16, 27, 177);
+  }
+  .solf__box2{
+    display: flex;
+    width: 900px;
+    margin: 30px auto;
+   
+}
+
+/* NOLEDG //////////////////////////////////////////////////////////////////////////*/
+  
+
+
+.holedg__titl{
+   
+    background-color: rgb(16, 27, 177);
+    color:aliceblue;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+.noledg__body{
+    width: 1100px;
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+.noledg__body-box{
+    padding: 10px;
+}
+.noledg__body-box-i1{
+    margin-left: 70px;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/theme/default/images/advantage-team.png);
+}
+.noledg__body-box-i2{
+    margin-left: 70px;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/theme/default/images/advantage-presentation.png);
+}
+.noledg__body-box-i3{
+    margin-left: 70px;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/theme/default/images/advantage-chart.png);
+}
+.noledg__body-box-i4{
+    margin-left: 70px;
+    
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/theme/default/images/advantage-coffee.png);
+}
+.noledg__body-h2{
+    margin: 20px;
+}
+.noledg__footer{
+    height: 170px;
+    padding: 15px;
+    background-color: rgb(231, 234, 247);
+    text-align: center ;
+}
+.noledg__h31{
+    margin: 25px;
+}
+.noledg__h32{
+    margin: 25px;
+    font-weight: 400;
+}
+
+/* SLAIDER///////////////////////////////////////// */
+
+.slaider{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+    background-size: cover;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/images/background-testimonials.7c065d89.jpg) ;
+}
+.slaider__main{
+    width: 800px;
+    height: 270px;
+    background-color: #fff;
+    margin: 0 auto;
+   
+    overflow: hidden;
+}
+.slaider__sp-left{
+    position: absolute;
+    left: 140px;
+    top: 120px;
+    font-size: 70px;
+    
+}
+.slaider__sp-right{
+    position: absolute;
+    left: 1100px;
+    top: 120px;
+    font-size: 70px;
+}
+
+.slaider__wraper{
+  display: flex;
+  height: 270px;
+ 
+ 
+}
+.slaider__slaid img {
+    width: 800px;
+    
+   
+}
+
+
+
+/* CART///////////////////////////////// */
+.cart{
+    position: relative;
+    background-color:rgb(227, 233, 233);
+    width: 900px;
+    margin: 0 auto;
+}
+.cart__img{
+    height: 400px;
+    width: 900px;
+   
+    background-size: cover;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/images/background-promotion-6.d60b6fac.jpg);
+}
+.cart__box{
+    height: 200px;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+}
+.cart__block1{
+   padding: 20px;
+   width: 800px;
+}
+
+.cart__block1-h2{
+    text-align: right;
+    margin-top: 30px ;
+   
+}
+.cart__block1-h3{
+    text-align: right;
+    font-size: 15px;
+   
+}
+.cart__block1-box{
+    display: flex;
+}
+.cart__block1-i{
+    height: 30px;
+    width: 50px;
+   margin-right: 20px;
+    background-size: cover;
+   background-image:  url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/images/background-quotes.56ba9582.png);
+}
+.cart__block1-p{
+  font-size: 20px;
+}
+
+
+.cart__block2{
+    width: 400px;
+    padding: 20px;
+
+ }
+ 
+.cart__span1{
+    height: 17px;
+    width: 17px;
+    display: inline-block;
+    background-size: cover;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/theme/default/images/social-icons/telephone.png);
+}
+.cart__span2{
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    display: inline-block;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/theme/default/images/social-icons/whatsapp.png);
+}
+.cart__span3{
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    display: inline-block;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/theme/default/images/social-icons/viber.png);
+}
+.cart__span4{
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    display: inline-block;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/theme/default/images/social-icons/telegram.png);
+}
+.cart__span4{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url(https://idc-assets.ams3.cdn.digitaloceanspaces.com/idc-webcard/build/theme/default/images/social-icons/skype.png);
+}
+.cart__block2-h3{
+    background-color: rgb(231, 217, 17);
+    font-size: 14px;
+    width: 100%;
+}
+.cart__abs{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    top: 250px;
+    left: 70px;
+    background-image: url(data:image/jpeg;base64,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);
+}
+
+
+
+/* FOOTER///////////////////////////////////////////// */
+
+.footer{
+    height: 60px;
+    color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(59, 58, 58);
+}
